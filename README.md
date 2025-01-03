@@ -45,9 +45,14 @@
                 </ul>
             </li>
         </ol>
+        <h2>View</h2>
+        <ul>
+            <li><a>![Untitled Project](https://github.com/user-attachments/assets/ca907759-8e5d-4151-8269-4dd3f4a1224f)
+</a></li>
+        </ul>
     </div>
 </body>
 </html>
-# view:
-![Untitled Project](https://github.com/user-attachments/assets/0723c360-d536-4052-b69d-4a0b45fa38de)
+
+
 
