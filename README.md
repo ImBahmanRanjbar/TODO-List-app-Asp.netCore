@@ -11,7 +11,6 @@
     <div class="container mt-5">
         <h1>About the App</h1>
         <p>This is a web-based To-Do List application built using ASP.NET Core. The application allows users to manage their tasks efficiently by categorizing them, setting due dates, and updating their status. The interface is user-friendly, providing options to filter tasks based on category, due date, and status. Users can add new tasks, mark tasks as completed, and delete completed tasks.</p>
-        
         <h2>Features</h2>
         <ul>
             <li><strong>Task Management</strong>: Add, view, and manage tasks with descriptions, categories, due dates, and statuses.</li>
@@ -20,8 +19,7 @@
             <li><strong>Deletion</strong>: Delete completed tasks.</li>
             <li><strong>User Interface</strong>: Simple and intuitive interface for easy task management.</li>
         </ul>
-        
-        <h2>How to Use</h2>
+                <h2>How to Use</h2>
         <ol>
             <li><strong>Add a New Task</strong>:
                 <ul>
@@ -47,15 +45,13 @@
                 </ul>
             </li>
         </ol>
-        
-        <h2>Code Overview</h2>
+                <h2>Code Overview</h2>
         <p><strong>Models</strong></p>
         <ul>
             <li><strong>Filters.cs</strong>: Handles the filtering logic for tasks based on category, due date, and status.</li>
             <li><strong>TODO.cs</strong>: Represents the task entity with properties for description, category, due date, and status.</li>
         </ul>
-        
-        <p><strong>Controllers</strong></p>
+                <p><strong>Controllers</strong></p>
         <ul>
             <li><strong>HomeController.cs</strong>: Manages the main operations of the application, including displaying tasks, adding new tasks, filtering tasks, marking tasks as completed, and deleting completed tasks.</li>
         </ul>
