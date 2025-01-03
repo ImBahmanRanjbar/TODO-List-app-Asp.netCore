@@ -45,7 +45,7 @@
                 </ul>
             </li>
         </ol>
-        <h2>View</h2>
+        <h2>View(It may take some time to load)</h2>
     </div>
 </body>
 </html>
