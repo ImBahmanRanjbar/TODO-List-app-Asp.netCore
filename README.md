@@ -45,16 +45,6 @@
                 </ul>
             </li>
         </ol>
-                <h2>Code Overview</h2>
-        <p><strong>Models</strong></p>
-        <ul>
-            <li><strong>Filters.cs</strong>: Handles the filtering logic for tasks based on category, due date, and status.</li>
-            <li><strong>TODO.cs</strong>: Represents the task entity with properties for description, category, due date, and status.</li>
-        </ul>
-                <p><strong>Controllers</strong></p>
-        <ul>
-            <li><strong>HomeController.cs</strong>: Manages the main operations of the application, including displaying tasks, adding new tasks, filtering tasks, marking tasks as completed, and deleting completed tasks.</li>
-        </ul>
     </div>
 </body>
 </html>
