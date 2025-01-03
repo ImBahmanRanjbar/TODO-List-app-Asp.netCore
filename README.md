@@ -17,6 +17,7 @@
             <li><strong>Status Update</strong>: Mark tasks as completed.</li>
             <li><strong>Deletion</strong>: Delete completed tasks.</li>
             <li><strong>User Interface</strong>: Simple and intuitive interface for easy task management.</li>
+            <li><strong>Notify</strong>: The background will turn yellow when the task's due time has passed.</li>
         </ul>
                 <h2>How to Use</h2>
         <ol>
