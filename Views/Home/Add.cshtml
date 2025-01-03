@@ -1,0 +1,27 @@
+﻿@model TODO
+<h2>New Task</h2>
+<div asp-validation-summary="All"class="text-danger"></div>
+<form asp-action="Add" method="post">
+    <div class="mb-3">
+        <lable asp-for="Description" class="form-label">Description</lable>
+        <input asp-for="Description" class="form-control"/>
+
+    </div>
+
+    <div class="mb-3">
+        <lable asp-for="CategoryID" class="form-label">Category</lable>
+        <select asp-for="CategoryID" class="form-select" asp-items="@(new SelectList(ViewBag.Categories, "CategoryID", "Name"))"></select>
+        <option value=""></option>
+    </div>
+    <div class="mb-3">
+        <lable asp-for="DueDate" class="form-label">Due Date:</lable>
+        <input asp-for="DueDate" class="form-control" type="text"/>
+    </div>
+    <div class="mb-3">
+        <lable asp-for="StatusID" class="form-label">Status:</lable>
+        <select asp-for="StatusID" class="form-select" asp-items="@(new SelectList(ViewBag.Statuses, "StatusID", "Name"))"></select>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <a asp-action="Index" class="btn btn-primary">Cancel</a>
+</form>
