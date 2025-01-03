@@ -46,12 +46,10 @@
             </li>
         </ol>
         <h2>View</h2>
-        <ul>
-            <a>![Untitled Project](https://github.com/user-attachments/assets/ca907759-8e5d-4151-8269-4dd3f4a1224f)</a>
-        </ul>
     </div>
 </body>
 </html>
 
+ ![Untitled Project](https://github.com/user-attachments/assets/f1b167ec-5911-46ab-ae4c-e0b8ddc47d7f)
 
 
